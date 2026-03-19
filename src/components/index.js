@@ -8,13 +8,18 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-
+import Education from "./Education";
+import Certifcates from "./Certificates";
+import Achievements from "./Achievements";
 
 export {
   Hero,
   Navbar,
   About,
   Tech,
+  Education,
+  Certifcates,
+  Achievements,
   Experience,
   Works,
   Feedbacks,

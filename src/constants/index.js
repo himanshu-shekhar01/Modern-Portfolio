@@ -26,20 +26,23 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "about",
+  //   title: "About",
+  // },
+  // {
+  //   id: "work",
+  //   title: "Work",
+  // },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // }
+  { id: "about", title: "About" },
+  { id: "projects", title: "Projects" },
+  { id: "tech", title: "Skills" },
+  { id: "contact", title: "Contact" },
 ];
-
 const services = [
   {
     title: "Web Developer",
@@ -111,6 +114,36 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+];
+
+const education = [
+  {
+    degree: "Bachelor of Technology — Computer Science & Engineering",
+    institution: "Your University Name",
+    duration: "2021 – 2025",
+    grade: "CGPA: 8.5 / 10",
+    description:
+      "Focused on Data Structures, Algorithms, Web Technologies, and Machine Learning. Active member of the Coding Club.",
+    iconBg: "#383E56",
+  },
+  {
+    degree: "Intermediate (Class XII) — PCM",
+    institution: "Your School Name",
+    duration: "2019 – 2021",
+    grade: "Percentage: 92%",
+    description:
+      "Physics, Chemistry, Mathematics with Computer Science. Participated in state-level science exhibitions.",
+    iconBg: "#E6DEDD",
+  },
+  {
+    degree: "High School (Class X)",
+    institution: "Your School Name",
+    duration: "2019",
+    grade: "Percentage: 95%",
+    description:
+      "Topped in Mathematics and Computer Science. District school topper.",
+    iconBg: "#383E56",
   },
 ];
 
@@ -202,64 +235,108 @@ const projects = [
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://react-tasklistmanager.netlify.app/",
   },
   {
     name: "Job IT",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "restapi", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://yorpassmanager.netlify.app/",
   },
   {
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "supabase", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    title: "Full Stack Web Development",
+    issuer: "Coursera / Meta",
+    date: "Jan 2024",
+    credentialLink: "https://coursera.org/",
+    color: "#915EFF",
+  },
+  {
+    title: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "Mar 2024",
+    credentialLink: "https://aws.amazon.com/",
+    color: "#FF6B35",
+  },
+  {
+    title: "Data Structures & Algorithms",
+    issuer: "LeetCode / GeeksForGeeks",
+    date: "Jun 2023",
+    credentialLink: "https://leetcode.com/",
+    color: "#00B4D8",
+  },
+  {
+    title: "Machine Learning Specialization",
+    issuer: "Coursera / Andrew Ng",
+    date: "Sep 2023",
+    credentialLink: "https://coursera.org/",
+    color: "#43AA8B",
+  },
+];
+
+const achievements = [
+  {
+    title: "Smart India Hackathon 2023 — National Finalist",
+    description:
+      "Reached national finals among 10,000+ teams with an AI-based solution for agricultural disease detection.",
+    icon: "🏆",
+    date: "Dec 2023",
+  },
+  {
+    title: "LeetCode — 500+ Problems Solved",
+    description:
+      "Consistently solved competitive programming problems, ranking in top 15% globally.",
+    icon: "💻",
+    date: "Ongoing",
+  },
+  {
+    title: "College Coding Contest — 1st Place",
+    description:
+      "Won inter-departmental coding competition defeating 200+ participants.",
+    icon: "🥇",
+    date: "Mar 2023",
+  },
+  {
+    title: "Google Developer Student Club — Lead",
+    description:
+      "Led a 50-member tech community, organizing workshops, hackathons, and seminars.",
+    icon: "🌐",
+    date: "2023–2024",
+  },
+];
+
+export {
+  services,
+  technologies,
+  education,
+  experiences,
+  testimonials,
+  certificates,
+  achievements,
+  projects,
+};
