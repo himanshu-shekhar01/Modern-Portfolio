@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import smarttodo from "./smarttodo.png";
 import securepass from "./securepass.png";
-import travelXpress from "./travelXpress.png";
+import travelXpress from "./TravelXpress.png";
 import frontend from "./frontend.webp";
 
 export {
