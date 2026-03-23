@@ -19,7 +19,7 @@ import {
   smarttodo,
   securepass,
   travelXpress,
-  frontendLogo,
+  frontend,
 } from "../assets";
 
 export const navLinks = [
@@ -147,7 +147,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "LazyEats (College Startup)",
-    icon: frontendLogo,
+    icon: frontend,
     iconBg: "#E6DEDD",
     date: "2025",
     points: [

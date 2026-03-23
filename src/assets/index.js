@@ -1,3 +1,4 @@
+
 import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -21,11 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import smarttodo from "./smarttodo.png";
+import securepass from "./securepass.png";
+import travelXpress from "./travelXpress.png";
+import frontend from "./frontend.webp";
 
 export {
   logo,
@@ -49,8 +49,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla
+  smarttodo,
+  securepass,
+  travelXpress,
+  frontend,
 };
