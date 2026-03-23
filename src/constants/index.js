@@ -19,11 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  threejs
+  threejs,
 } from "../assets";
 
-import smarttodo from '../assets/smarttodo.png';
-import securepass from '../assets/securepass.png';
+import smarttodo from "../assets/smarttodo.png";
+import securepass from "../assets/securepass.png";
+import travelXpress from "../assets/travelXpress.png";
+import frontendLogo from "../assets/frontend.webp";
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -136,55 +138,39 @@ const education = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Content Creator (Tech)",
+    company_name: "Personal Brand",
+    icon: creator,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating educational content on coding, development, and internships to help students learn programming concepts.",
+      "Built a consistent online presence by sharing simplified explanations of technical topics.",
+      "Engaged with audience through social platforms, improving communication and teaching skills.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "LazyEats (College Startup)",
+    icon: frontendLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and designed the hero section of the website, improving visual appeal and user engagement.",
+      "Enhanced UI styling and responsiveness using modern CSS and frontend techniques.",
+      "Collaborated with startup team members to build and refine product features.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer Intern",
+    company_name: "Skill Craft",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to frontend development by building and styling responsive UI components using React.js and CSS.",
+      "Collaborated with team members to improve website design and user experience.",
+      "Worked on real-world projects, gaining hands-on experience in modern web development practices.",
     ],
   },
 ];
@@ -224,9 +210,22 @@ const projects = [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
     ],
     image: smarttodo,
     source_code_link: "https://react-tasklistmanager.netlify.app/",
+  },
+  {
+    name: "TravelXpress",
+    description:
+      "A travel booking platform that enables users to search for flights, hotels, and rental cars, while also offering recommendations for popular destinations and travel packages.",
+    tags: [
+      { name: "reactjs", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+    ],
+    image: travelXpress,
+    source_code_link: "https://travelxpress.netlify.app/",
   },
   {
     name: "SecurePass",
@@ -236,8 +235,9 @@ const projects = [
       { name: "react", color: "blue-text-gradient" },
       { name: "express", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
+      { name: "tailwindcss", color: "green-text-gradient" },
     ],
-    
+
     image: securepass,
     source_code_link: "https://yorpassmanager.netlify.app/",
   },
@@ -246,40 +246,76 @@ const projects = [
 const certificates = [
   {
     title: "Data Structures & Algorithms with Java",
-    issuer: "Apna College",
+    issuer: "Apna College / Online",
     date: "Jan 2025",
-    credentialLink: "https://drive.google.com/file/d/1XcR_DF5BKeALacLiPaukiTpsVHqgNQme/view",
+    credentialLink:
+      "https://drive.google.com/file/d/1XcR_DF5BKeALacLiPaukiTpsVHqgNQme/view",
     color: "#915EFF",
   },
   {
     title: "Ethical Hacking — Beginner to Advanced",
-    issuer: "NPTEL",
-    date: "Mar 2024",
-    credentialLink: "https://drive.google.com/file/d/12IxeQYcIATI7ueN5VccYj1tUPLUBCpW6/view",
+    issuer: "NPTEL / Online",
+    date: "Mar 2025",
+    credentialLink:
+      "https://drive.google.com/file/d/12IxeQYcIATI7ueN5VccYj1tUPLUBCpW6/view",
     color: "#FF6B35",
   },
   {
     title: "Full Stack Development",
-    issuer: "GeeksforGeeks",
-    date: "Jun 2023",
-    credentialLink: "https://www.geeksforgeeks.org/",
+    issuer: "GeeksforGeeks / Online",
+    date: "Jun 2025",
+    credentialLink:
+      "https://media.geeksforgeeks.org/courses/certificates/fc7b10226e96c22191b35ca374bbe055.pdf",
     color: "#00B4D8",
   },
   {
     title: "Node.js Backend Integration",
-    issuer: "Scaler",
+    issuer: "Scaler / Online",
     date: "Oct 2025",
     credentialLink: "https://moonshot.scaler.com/s/sl/NUAyNptaDC",
     color: "#43AA8B",
   },
+
+  {
+    title: "Build Generative AI Apps & Solutions (No-Code)",
+    issuer: "Udemy / Online Platform",
+    date: "2025",
+    credentialLink:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0253426e-822a-4e33-9df1-c34ddbaa0ecf.pdf",
+    color: "#FF9F1C",
+  },
+  {
+    title: "ChatGPT Made Easy — AI Essentials for Beginners",
+    issuer: "Udemy / Online Platform",
+    date: "2025",
+    credentialLink:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-737d9e99-1c1d-45fc-a955-3a41582a2425.pdf",
+    color: "#2EC4B6",
+  },
+  {
+    title: "Master Generative AI & AI Tools",
+    issuer: "Udemy / Online Platform",
+    date: "2025",
+    credentialLink:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-1df67af7-3f6b-4927-ba66-639776e82706.pdf",
+    color: "#E71D36",
+  },
 ];
 const achievements = [
   {
-    title: "LeetCode — 500+ Problems Solved",
+    title: "LeetCode — 300+ Problems Solved",
     description:
       "Consistently solved competitive programming problems, ranking in top 30% globally.",
     icon: "💻",
     date: "Ongoing",
+  },
+
+  {
+    title: "HackerRank — 4★ in Problem Solving",
+    description:
+      "Achieved a 4-Star rating on HackerRank in Problem Solving, demonstrating strong analytical thinking and coding proficiency across algorithmic challenges.",
+    icon: "💡",
+    date: "2024",
   },
   {
     title: "Hackathon — Top 5 Finalist",
@@ -287,13 +323,6 @@ const achievements = [
       "Participated in a competitive hackathon and secured a position among the top 5 teams by building an innovative solution under time constraints.",
     icon: "🏆",
     date: "Mar 2023",
-  },
-  {
-    title: "Google Developer Student Club — Lead",
-    description:
-      "Led a 50-member tech community, organizing workshops, hackathons, and seminars.",
-    icon: "🌐",
-    date: "2023–2024",
   },
 ];
 export {
