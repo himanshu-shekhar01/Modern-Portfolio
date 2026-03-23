@@ -15,17 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   threejs,
+  smarttodo,
+  securepass,
+  travelXpress,
+  frontendLogo,
 } from "../assets";
-
-import smarttodo from "../assets/smarttodo.png";
-import securepass from "../assets/securepass.png";
-import travelXpress from "../assets/travelXpress.png";
-import frontendLogo from "../assets/frontend.webp";
 
 export const navLinks = [
   { id: "about", title: "About" },
