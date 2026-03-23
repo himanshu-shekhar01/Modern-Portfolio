@@ -19,25 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  threejs
 } from "../assets";
 
+import smarttodo from '../assets/smarttodo.png';
+import securepass from '../assets/securepass.png';
+
 export const navLinks = [
-  // {
-  //   id: "about",
-  //   title: "About",
-  // },
-  // {
-  //   id: "work",
-  //   title: "Work",
-  // },
-  // {
-  //   id: "contact",
-  //   title: "Contact",
-  // }
   { id: "about", title: "About" },
   { id: "projects", title: "Projects" },
   { id: "tech", title: "Skills" },
@@ -120,29 +108,28 @@ const technologies = [
 const education = [
   {
     degree: "Bachelor of Technology — Computer Science & Engineering",
-    institution: "Your University Name",
-    duration: "2021 – 2025",
-    grade: "CGPA: 8.5 / 10",
+    institution: "Lovely Professional University",
+    duration: "2023 – 2027",
+    grade: "CGPA: 6.2 / 10",
     description:
-      "Focused on Data Structures, Algorithms, Web Technologies, and Machine Learning. Active member of the Coding Club.",
+      "Focused on Data Structures, Algorithms and Web Technologies. Active member of the Coding Club.",
     iconBg: "#383E56",
   },
   {
     degree: "Intermediate (Class XII) — PCM",
-    institution: "Your School Name",
-    duration: "2019 – 2021",
-    grade: "Percentage: 92%",
+    institution: "N.P. Boys Senior Secondary School",
+    duration: "2020 – 2022",
+    grade: "Percentage: 72%",
     description:
       "Physics, Chemistry, Mathematics with Computer Science. Participated in state-level science exhibitions.",
     iconBg: "#E6DEDD",
   },
   {
     degree: "High School (Class X)",
-    institution: "Your School Name",
-    duration: "2019",
-    grade: "Percentage: 95%",
-    description:
-      "Topped in Mathematics and Computer Science. District school topper.",
+    institution: "Nav Uday Public High School",
+    duration: "2019-2020",
+    grade: "Percentage: 75%",
+    description: "Top Performer in Maths and Science.",
     iconBg: "#383E56",
   },
 ];
@@ -228,97 +215,77 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "SmartTodo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A task management web application that helps users efficiently organize and prioritize daily tasks. It supports creating, updating, deleting, and categorizing tasks, along with deadline tracking and status management.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: smarttodo,
     source_code_link: "https://react-tasklistmanager.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "SecurePass",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A secure password manager system that allows users to safely store and manage credentials. It features user authentication, encrypted password storage, and secure login functionality.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
-      { name: "restapi", color: "green-text-gradient" },
-      { name: "scss", color: "pink-text-gradient" },
+      { name: "express", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    
+    image: securepass,
     source_code_link: "https://yorpassmanager.netlify.app/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      { name: "nextjs", color: "blue-text-gradient" },
-      { name: "supabase", color: "green-text-gradient" },
-      { name: "css", color: "pink-text-gradient" },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
 const certificates = [
   {
-    title: "Full Stack Web Development",
-    issuer: "Coursera / Meta",
-    date: "Jan 2024",
-    credentialLink: "https://coursera.org/",
+    title: "Data Structures & Algorithms with Java",
+    issuer: "Apna College",
+    date: "Jan 2025",
+    credentialLink: "https://drive.google.com/file/d/1XcR_DF5BKeALacLiPaukiTpsVHqgNQme/view",
     color: "#915EFF",
   },
   {
-    title: "AWS Cloud Practitioner",
-    issuer: "Amazon Web Services",
+    title: "Ethical Hacking — Beginner to Advanced",
+    issuer: "NPTEL",
     date: "Mar 2024",
-    credentialLink: "https://aws.amazon.com/",
+    credentialLink: "https://drive.google.com/file/d/12IxeQYcIATI7ueN5VccYj1tUPLUBCpW6/view",
     color: "#FF6B35",
   },
   {
-    title: "Data Structures & Algorithms",
-    issuer: "LeetCode / GeeksForGeeks",
+    title: "Full Stack Development",
+    issuer: "GeeksforGeeks",
     date: "Jun 2023",
-    credentialLink: "https://leetcode.com/",
+    credentialLink: "https://www.geeksforgeeks.org/",
     color: "#00B4D8",
   },
   {
-    title: "Machine Learning Specialization",
-    issuer: "Coursera / Andrew Ng",
-    date: "Sep 2023",
-    credentialLink: "https://coursera.org/",
+    title: "Node.js Backend Integration",
+    issuer: "Scaler",
+    date: "Oct 2025",
+    credentialLink: "https://moonshot.scaler.com/s/sl/NUAyNptaDC",
     color: "#43AA8B",
   },
 ];
-
 const achievements = [
-  {
-    title: "Smart India Hackathon 2023 — National Finalist",
-    description:
-      "Reached national finals among 10,000+ teams with an AI-based solution for agricultural disease detection.",
-    icon: "🏆",
-    date: "Dec 2023",
-  },
   {
     title: "LeetCode — 500+ Problems Solved",
     description:
-      "Consistently solved competitive programming problems, ranking in top 15% globally.",
+      "Consistently solved competitive programming problems, ranking in top 30% globally.",
     icon: "💻",
     date: "Ongoing",
   },
   {
-    title: "College Coding Contest — 1st Place",
+    title: "Hackathon — Top 5 Finalist",
     description:
-      "Won inter-departmental coding competition defeating 200+ participants.",
-    icon: "🥇",
+      "Participated in a competitive hackathon and secured a position among the top 5 teams by building an innovative solution under time constraints.",
+    icon: "🏆",
     date: "Mar 2023",
   },
   {
@@ -329,7 +296,6 @@ const achievements = [
     date: "2023–2024",
   },
 ];
-
 export {
   services,
   technologies,
